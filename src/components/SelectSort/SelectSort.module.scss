@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    width: 220px;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.select {
+    background-color: rgba(223, 223, 223, 0.4);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #444B58;
+}
+
+.select:focus {
+    border: none;
+    color: #202020;
+    outline: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.option {
+    background-color: rgba(223, 223, 223, 0.6);
+    color: #444B58;
+}
+
+@media all and (max-width: 550px) {
+    .container {
+        width: 100%;
+    }
+}

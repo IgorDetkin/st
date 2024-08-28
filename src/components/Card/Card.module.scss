@@ -1,0 +1,55 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.name {
+    width: 25%;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.email {
+    width: 25%;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color:rgb(80, 80, 150);
+    text-overflow: ellipsis;
+    white-space: wrap;
+    overflow: hidden;
+}
+
+.address {
+    width: 25%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.company {
+    width: 25%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+@media all and (min-width: 550px) and (max-width: 800px) {
+    .address {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .card {
+        width: 700px;
+    }
+
+}
+
+@media all and (max-width: 550px) {
+    .card {
+        width: 700px;
+    }
+}
